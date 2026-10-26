@@ -1,0 +1,19 @@
+/* Hallmark · shape: app screen · genre: editorial · theme: Garden (dealt 3/3) · posture: committed
+ * screen: IELTS local-first training workbench · states: full, empty, saved
+ * nav: top bar, seven-tab tablist · signature: persistent daily plan and timer
+ * imagery: none · v2.0.0 · engineered: vite + ES modules */
+:root {
+  --color-paper: oklch(95.8% 0.024 90); --color-paper-2: oklch(92.6% 0.030 90); --color-paper-3: oklch(89% 0.034 90);
+  --color-ink: oklch(23% 0.050 152); --color-ink-2: oklch(33% 0.048 150); --color-muted: oklch(42% 0.034 142);
+  --color-rule: oklch(83% 0.024 112); --color-rule-2: oklch(68% 0.042 138);
+  --color-accent: oklch(46% 0.135 142); --color-accent-2: oklch(86% 0.075 128); --color-accent-ink: oklch(97% 0.015 95);
+  --color-focus: oklch(46% 0.135 142); --color-error: oklch(43% 0.16 30);
+  --tint-moss: oklch(46% 0.135 142 / 0.11);
+  --font-display: "Vollkorn", ui-serif, Georgia, serif; --font-body: "Hanken Grotesk", "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
+  --text-xs: 0.75rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.125rem; --text-xl: 1.25rem; --text-2xl: 1.563rem; --text-3xl: 1.953rem; --text-display: 2.441rem;
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px;
+  --container: 1440px; --gutter: 64px; --gap-columns: 32px; --topbar-height: 72px;
+  --radius-card: 4px; --radius-pill: 999px; --rule-hair: 1px;
+  --dur-micro: 120ms; --dur-short: 220ms; --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --z-toast: 500;
+}
