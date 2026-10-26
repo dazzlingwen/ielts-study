@@ -23,6 +23,10 @@ npm run build   # 构建到 dist/（相对路径，可任意子目录部署）
 npm run preview # 预览构建产物
 ```
 
+## GitHub Pages 部署
+
+推送到 `master` 分支后，GitHub Actions 会自动构建并部署到 [栖岸 IELTS](https://dazzlingwen.github.io/ielts-study/)。也可以在仓库的 Actions 页面手动运行 `Deploy to GitHub Pages`。
+
 ## 目录结构
 
 ```
